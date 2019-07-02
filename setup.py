@@ -16,9 +16,10 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     # version='0.1.dev0',
     # according to https://semver.org/
-    version='0.1.beta',
+    version='0.2.beta',
 
     description='losd is (currently) a very simple python package for querying the LOSD (linked open social data) dataset',
+    long_description_content_type="text/markdown",
     long_description=long_description,
 
     # The project's main homepage.
@@ -55,7 +56,7 @@ setup(
 
         # Pick your license as you wish (should match "license" above)
         # 'License :: OSI Approved :: Public Domain',
-        'License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication'
+        'License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
@@ -72,7 +73,7 @@ setup(
     packages=find_packages(),
     #packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
 
-    install_requires=['rdflib', 'requests'],
+    install_requires=['rdflib', 'requests', 'networkx'],
     # List run-time dependencies here.  These will be installed by pip when your
     # project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:

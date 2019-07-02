@@ -16,7 +16,7 @@ For greater control of customization, hacking and debugging, clone the repositor
 # usage
 
 Queries have the heading:
-```sparql
+```
 PREFIX po: <http://purl.org/socialparticipation/po/>
 ```
 
